@@ -1,0 +1,138 @@
+div#main{
+    margin-top: -30px;
+    background-image: url("http://i.imgur.com/4R0SXIf.jpg");
+    text-align: center;
+}
+
+body, html {
+    height: 100%;
+
+}
+
+.parallax {
+    opacity: 0.9;
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+/* this is the name*/
+div#main .row .col-lg-12 .content h1{
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-size: 60px;
+    padding-top: 300px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0 4px 3px rgba(0,0,0,0.6),
+                 0 8px 13px rgba(0,0,0,0.3),
+                 0 18px 23px rgba(0,0,0,0.2);
+}
+/*This is the line from main */
+hr.style {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+    width: 35rem;
+    margin-top: 5rem;
+}
+/* this is the small box under the name*/
+div#main .row .col-lg-12 .content p{
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 18px;
+    width: 32rem;
+    margin:auto;
+    padding: 2px;
+    background: black;
+    border-radius: 5px 5px;
+    text-transform: uppercase;
+    text-shadow: 0 4px 3px rgba(0,0,0,0.6),
+                 0 8px 13px rgba(0,0,0,0.3),
+                 0 18px 23px rgba(0,0,0,0.2);
+}
+.ico a i {
+    margin: 1.2em 4px 0 4px;
+    font-size: 60px;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+/* add later
+.ico a i:hover {
+
+    color: white;
+
+}*/
+
+div#about{
+    background-image: url("http://i.imgur.com/5Ig8d4S.jpg");
+    text-align: center;
+}
+div#about .row .col-lg-12 .content{
+    margin-top: 2%;
+    margin-bottom: 3%;
+    color: white;
+}
+div#about .row .col-lg-12 .content p{
+    width: 50%;
+    margin: 2% auto 0 auto;
+    font-family:  'Roboto Slab', serif;
+    font-size: 1.7em;
+    letter-spacing: 1px;
+}
+
+div#about .row .col-lg-12 .content h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family:  'Roboto Slab', serif;
+
+    letter-spacing: 1.5px;
+}
+
+/*http://imgur.com/a/yKwPf*/
+div#skill .row .col-lg-12 .content div div div p {
+   font-size: 0.9em;
+    color: #EAFFE8;
+    font-family: 'Roboto Slab', serif;
+}
+
+div#skill .row .col-lg-12 .content div div div h3 {
+    font-family:'Roboto Slab', serif;
+    letter-spacing: 0.9px;
+    text-shadow: 0 4px 3px rgba(0,0,0,0.4),
+                 0 8px 13px rgba(0,0,0,0.1),
+                 0 18px 23px rgba(0,0,0,0.1);
+}
+
+div#skill .row .col-lg-12 .content div{
+    margin-top: 1.5%;
+    font-size: 20px;
+    color: white;
+}
+
+div#skill .row .col-lg-12 .content h1{
+    text-transform: uppercase;
+    font-size: 60px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    text-shadow: 0 4px 3px rgba(0,0,0,0.4),
+                 0 8px 13px rgba(0,0,0,0.1),
+                 0 18px 23px rgba(0,0,0,0.1);
+    letter-spacing: 4px;
+}
+
+div#skill .row .col-lg-12 .content {
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+div#skill .row.parallax{
+      background-image: url("http://i.imgur.com/5Ig8d4S.jpg");
+    text-align: center;
+}
