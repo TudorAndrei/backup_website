@@ -154,10 +154,7 @@ div#skill .row.parallax{
   -ms-transform: translate(-50%, -50%)
 }
 
-.thumbnail .text:hover {
-    background: greenyellow;
-    color: #162035;
-}
+
 
 .thumbnail:hover .image {
   opacity: 0.3;
@@ -169,8 +166,8 @@ div#skill .row.parallax{
 
 .text {
   transition: .35s ease-in-out;
-  background-color: red;
-  color: aquamarine;
+  background-color: black;
+  color: white;
   font-size: 20px;
   padding: 16px 32px;
   text-transform: uppercase;
