@@ -31,9 +31,7 @@ div#main .row .col-lg-12 .content h1{
     padding-top: 300px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    text-shadow: 0 4px 3px rgba(0,0,0,0.6),
-                 0 8px 13px rgba(0,0,0,0.3),
-                 0 18px 23px rgba(0,0,0,0.2);
+
 }
 /*This is the line from main */
 hr.style {
@@ -194,9 +192,7 @@ div#project .row .col-lg-12  h1{
     text-transform: uppercase;
     font-size: 50px;
     font-family: 'Roboto Slab', serif;
-    text-shadow: 0 4px 3px rgba(0,0,0,0.4),
-                 0 8px 13px rgba(0,0,0,0.1),
-                 0 18px 23px rgba(0,0,0,0.1);
+
     letter-spacing: 1.5px;
 }
 
@@ -223,9 +219,7 @@ div#contact .row .col-lg-12 h1{
   text-transform: uppercase;
   font-size: 50px;
   font-family: 'Roboto Slab', serif;
-  text-shadow: 0 4px 3px rgba(0,0,0,0.4),
-               0 8px 13px rgba(0,0,0,0.1),
-               0 18px 23px rgba(0,0,0,0.1);
+  
   letter-spacing: 1.5px;
   color: white;
   text-align: center;
