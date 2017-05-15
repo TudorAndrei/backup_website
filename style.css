@@ -1,7 +1,9 @@
+/*MAIN AREA*/
 div#main{
     margin-top: -30px;
     background-image: url("http://i.imgur.com/4R0SXIf.jpg");
     text-align: center;
+
 }
 
 body, html {
@@ -67,13 +69,15 @@ div#main .row .col-lg-12 .content p{
     color: white;
 
 }*/
-
+/*ABOUT AREA*/
 div#about{
     background-image: url("http://i.imgur.com/5Ig8d4S.jpg");
     text-align: center;
+    padding-top: 50px;
+
 }
 div#about .row .col-lg-12 .content{
-    margin-top: 2%;
+
     margin-bottom: 3%;
     color: white;
 }
@@ -92,8 +96,11 @@ div#about .row .col-lg-12 .content h1{
 
     letter-spacing: 1.5px;
 }
-
+/*SKILS AREA*/
 /*http://imgur.com/a/yKwPf*/
+div#skill{
+
+}
 div#skill .row .col-lg-12 .content div div div p {
    font-size: 0.9em;
     color: #EAFFE8;
@@ -103,9 +110,7 @@ div#skill .row .col-lg-12 .content div div div p {
 div#skill .row .col-lg-12 .content div div div h3 {
     font-family:'Roboto Slab', serif;
     letter-spacing: 0.9px;
-    text-shadow: 0 4px 3px rgba(0,0,0,0.4),
-                 0 8px 13px rgba(0,0,0,0.1),
-                 0 18px 23px rgba(0,0,0,0.1);
+
 }
 
 div#skill .row .col-lg-12 .content div{
@@ -119,9 +124,7 @@ div#skill .row .col-lg-12 .content h1{
     font-size: 60px;
     color: white;
     font-family: 'Roboto Slab', serif;
-    text-shadow: 0 4px 3px rgba(0,0,0,0.4),
-                 0 8px 13px rgba(0,0,0,0.1),
-                 0 18px 23px rgba(0,0,0,0.1);
+
     letter-spacing: 4px;
 }
 
@@ -136,7 +139,10 @@ div#skill .row.parallax{
 }
 
 /*http://imgur.com/a/yKwPf*/
-
+/*PROJECT AREA*/
+div#project{
+  padding-top: 50px;
+}
 .image {
   opacity: 1;
   display: block;
@@ -151,7 +157,7 @@ div#skill .row.parallax{
   left: 50%;
   text-decoration: none !important;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%)
+
 }
 
 
@@ -203,4 +209,47 @@ div#project{
     background-image: url("http://i.imgur.com/WTnp2nC.jpg");
     text-align: center;
     color: white;
+}
+/*CONTACT AREA*/
+div#contact {
+
+      background-image: url("http://i.imgur.com/8oER3vl.jpg");
+      width: 100%;
+      margin:  auto ;
+      font-size: 1.7em;
+      letter-spacing: 1px;
+}
+div#contact .row .col-lg-12 h1{
+  text-transform: uppercase;
+  font-size: 50px;
+  font-family: 'Roboto Slab', serif;
+  text-shadow: 0 4px 3px rgba(0,0,0,0.4),
+               0 8px 13px rgba(0,0,0,0.1),
+               0 18px 23px rgba(0,0,0,0.1);
+  letter-spacing: 1.5px;
+  color: white;
+  text-align: center;
+}
+
+div#contact .col-sm-6 p {
+    font-family:  'Roboto Slab', serif;
+    padding-top: 50px;
+    color: white;
+}
+
+div#contact-form{
+  padding-top: 40px;
+  font-family:  'Roboto Slab', serif;
+}
+
+input[type=text]{
+  margin: 8px 0;
+}
+
+input[type=email]{
+  margin: 8px 0;
+}
+
+textarea{
+  resize: none;
 }

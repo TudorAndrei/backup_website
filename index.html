@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
-<header>
+<head>
 <link rel="stylesheet" type="text/css" href="style.css">
 <link type="text/javascript" src="script.js">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-</header>
+</head>
 <script src="https://use.fontawesome.com/2312c446f7.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 <body >
@@ -26,10 +26,10 @@
         <div class="collapse navbar-collapse" id="navbar1">
           <ul class="nav navbar-nav navbar-right">
             <li class="active"> <a href="#"> Home </a></li>
-            <li><a href="#"> About</a></li>
-            <li><a href="#"> Skills</a></li>
-            <li><a href="#"> Projects</a></li>
-            <li><a href="#"> Contact</a></li>
+            <li><a href="#about"> About</a></li>
+            <li><a href="#skill"> Skills</a></li>
+            <li><a href="#project"> Projects</a></li>
+            <li><a href="#contact"> Contact</a></li>
           </ul>
       </div>
       </div>
@@ -54,16 +54,18 @@
             </div>
         </div>
 
-
+<p></p>
+<p></p>
 </div>
+
 <!-- Here is the About me part-->
 <div class="container-fluid" id="about">
        <div class="row">
            <div class="col-lg-12">
                <div class="content">
                    <h1>About Me</h1>
-
-                   <p>Lorem ipsum dolor sit amet, duo alii mazim ex, virtute dignissim vis eu. Eam et rationibus comprehensam, pro ne aliquam percipit. At est purto dicat iudicabit, duo posse accusata in. His copiosae adipiscing an.</p>
+                    <hr class="style">
+                   <p>Hello, my name is Tudor Andrei Dumitrascu. I am an Electronic engineering student and a self-taught front-end web developer. Some things that I enjoy are music, movies and coding.</p>
                </div>
            </div>
        </div>
@@ -80,22 +82,22 @@
                             <div class="col-lg-3 col-sm-6 text-center">
                                 <i class="fa fa-4x fa-html5" aria-hidden="true"></i>
                                 <h3>HTML</h3>
-                                <p>Lorem ipsum dolor sit amet, duo alii mazim ex, virtute dignissim vis eu..</p>
+                                <p>Experienced in using HTML5</p>
                             </div>
                             <div class="col-lg-3 col-sm-6 text-center">
                                 <i class="fa fa-css3 fa-4x" aria-hidden="true"></i>
                                 <h3>CSS</h3>
-                                <p>Lorem ipsum dolor sit amet, duo alii mazim ex, virtute dignissim vis eu.</p>
+                                <p>Competent in using CSS3</p>
                             </div>
                             <div class="col-lg-3 col-sm-6 text-center">
                                 <i class="fa fa-code fa-4x" aria-hidden="true"></i>
                                 <h3>jQUERY</h3>
-                                <p>Lorem ipsum dolor sit amet, duo alii mazim ex, virtute dignissim vis eu.</p>
+                                <p>Beginner user of the jQuery library</p>
                             </div>
                             <div class="col-lg-3 col-sm-6 text-center">
                                 <i class="fa fa-bold fa-4x" aria-hidden="true"></i>
                                 <h3>BOOTSTRAP</h3>
-                                <p>Lorem ipsum dolor sit amet, duo alii mazim ex, virtute dignissim vis eu.</p>
+                                <p>Intermediate user of the Bootstrap framework</p>
                             </div>
                         </div>
                     </div>
@@ -109,9 +111,9 @@
            <div class="content">
                <div class="col-lg-12">
                    <h1>Projects</h1>
-
+                    <hr class="style">
                </div>
-               <div class="col-lg-4">
+               <div class="col-sm-12">
                    <div class="thumbnail">
                        <img src="http://i.imgur.com/eP6iaBj.png" alt="tribute-page" title="Tribute Page" class="image">
                        <a class="middle" href="https://tudorandrei.github.io/Tribute-Page/" target="_blank">
@@ -124,7 +126,29 @@
        </div>
    </div>
 <!--  Here is the Contact part-->
-<div class="container-fluid" id="contact"></div>
+<div class="container-fluid" id="contact">
+  <div class="row">
+    <div class="col-lg-12">
+        <h1>Contact</h1>
+        <hr class="style">
+    </div>
+    <div class="col-sm-6">
+      <form>
+        <div class="form-group" id="contact-form">
+          <input type="text" class="form-control" placeholder="Full Name" >
+          <input type="email" class="form-control" placeholder="E-mail">
+          <textarea id="message" class="form-control" placeholder="Message"></textarea>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+
+    </div>
+    <div class="col-sm-6">
+      <p> Fell free to contact me for any questions or comments.</p>
+    </div>
+
+  </div>
+</div>
 
 
  </body>
