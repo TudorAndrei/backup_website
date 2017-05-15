@@ -96,9 +96,7 @@ div#about .row .col-lg-12 .content h1{
 }
 /*SKILS AREA*/
 /*http://imgur.com/a/yKwPf*/
-div#skill{
-
-}
+ 
 div#skill .row .col-lg-12 .content div div div p {
    font-size: 0.9em;
     color: #EAFFE8;
@@ -179,9 +177,8 @@ div#project{
   letter-spacing: 1px;
 }
 
-.thumbnail {
-    margin-top: 4%;
-}
+
+
 
 .thumbnail img {
     height: 250px;
@@ -192,10 +189,8 @@ div#project .row .col-lg-12  h1{
     text-transform: uppercase;
     font-size: 50px;
     font-family: 'Roboto Slab', serif;
-
     letter-spacing: 1.5px;
 }
-
 
 div#project .row .content {
     margin-bottom: 1%;
@@ -209,7 +204,7 @@ div#project{
 /*CONTACT AREA*/
 div#contact {
 
-      background-image: url("http://i.imgur.com/8oER3vl.jpg");
+      background-image: url("http://i.imgur.com/99GbDqs.jpg");
       width: 100%;
       margin:  auto ;
       font-size: 1.7em;
@@ -219,7 +214,7 @@ div#contact .row .col-lg-12 h1{
   text-transform: uppercase;
   font-size: 50px;
   font-family: 'Roboto Slab', serif;
-  
+
   letter-spacing: 1.5px;
   color: white;
   text-align: center;
