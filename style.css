@@ -200,9 +200,8 @@ div#project {
 
 div#contact {
     text-align: center;
-    padding-top: 10%;
     height: 50%;
-    width: 100%;
+    padding-top: 50px;
     margin: auto;
     font-size: 1.7em;
     letter-spacing: 1px;
@@ -213,18 +212,13 @@ div#contact .row .col-lg-12 h1 {
     font-size: 50px;
     font-family: 'Roboto Slab', serif;
     letter-spacing: 1.5px;
-    color: whblackite;
-    text-align: center;
-}
-
-div#contact .col-sm-6 p {
-    font-family: 'Roboto Slab', serif;
-    padding-top: 50px;
     color: black;
+    text-align: center;
+    padding-bottom: 5%;
 }
 
 .ico a i {
     test-align: center;
     font-size: 60px;
-    color: white;
+    color: black;
 }
